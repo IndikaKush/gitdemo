@@ -21,7 +21,7 @@ public class MainController {
 	UserService userService;
 	
 	//ホーム画面系を表示
-	@GetMapping("/home")
+	@GetMapping
 	public String home() {
 		return "home";
 	}

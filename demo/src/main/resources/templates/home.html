@@ -53,12 +53,12 @@
 <body>
     <main>
         <h1>私のページよこそへ！</h1>
-        <form action="@{/DataInput}" method="POST">
+        <form th:action="@{/DataInput}" method="POST">
             <button class="btn" type="submit">
                 ビザ期限記入する方こちら
             </button>
         </form>
-        <form action="@{/AdminLogin}" method="POST">
+        <form th:action="@{/AdminLogin}" method="POST">
             <button class="btn" type="submit">
                 管理者ログイン
             </button>
